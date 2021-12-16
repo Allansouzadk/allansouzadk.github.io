@@ -1,0 +1,86 @@
+/*
+======================= START OF LICENSE NOTICE =======================
+  Copyright (C) 2021 allan. All Rights Reserved
+
+  NO WARRANTY. THE PRODUCT IS PROVIDED BY DEVELOPER "AS IS" AND ANY
+  EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DEVELOPER BE LIABLE FOR
+  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+  IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE PRODUCT, EVEN
+  IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+======================== END OF LICENSE NOTICE ========================
+  Primary Author: allan
+
+*/
+
+body, html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.container{
+    flex-flow: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 220%;
+}
+.container1{
+    background-color: aliceblue;
+	justify-content: center;
+    flex: 1;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+.container2{
+    background-color: #4F4F4F;
+    flex: 1;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+.hand{
+    width: 25%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.mail{
+    padding-top: 100px;
+    padding-right: 14%;
+    margin-top:15%;
+    margin-left: 15%;
+    width: 23%;
+    height: 23%;
+    top: 0;
+    left: 0;
+}
+h1{
+    padding-top: 120px;
+    font-size: 5em;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-weight: normal;
+    color: #363636;
+}
+.mailtext{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 8px;
+    font-size:60px;
+    font-weight: normal
+}
+.github{
+    position: relative;
+}
+
+p{
+    opacity: 0.8}
