@@ -66,8 +66,8 @@
     padding-top: 100px;
     padding-right: 14%;
     margin-left: 15%;
-    width: 23%;
-    height: 23%;
+    width: 23vw;
+    height: 23vh;
     top: 0;
     left: 0;
 }
@@ -111,11 +111,29 @@
 }
 
 .hand {
-    width: 25%;
-    height: 25%;
+    width: 25vw;
+    height: 25vh;
     top: 0;
     left: 0;
     z-index: -1;
     margin-bottom: 20vw;
+}
 
+@media(max-width:500px) {
+    .scroll {
+        overflow: visible;
+        overflow-x: hidden;
+    }
+
+    .scroll input {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #rd_contact:checked~.sections {
+        margin-top: 0vh;
+    }
 }
