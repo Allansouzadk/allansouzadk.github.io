@@ -118,6 +118,9 @@
     z-index: -1;
     margin-bottom: 20vw;
 }
+.nav label:active{
+    font-size: 20px;
+}
 
 @media(max-width:500px) {
     .scroll {
